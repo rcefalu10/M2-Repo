@@ -1,0 +1,27 @@
+buildscript {
+    ext.main_class = 'edu.gatech.oad.antlab.pkg1.AntLabMain'
+
+   repositories {
+        mavenCentral()
+    }
+}
+
+apply plugin: 'java'
+
+repositories {
+    flatDir {
+        dirs 'lib'
+    }
+}
+
+dependencies {
+    compile name: 'resources'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': main_class
+    }
+
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+}
