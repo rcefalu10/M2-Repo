@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cac3dd58-5f20-4a2a-96e0-c04e0ce5bbb9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/gatech/oad/antlab/pkg1/AntLab11.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -245,6 +245,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
