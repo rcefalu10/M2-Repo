@@ -2,16 +2,8 @@ defaultTasks 'jar'
 
 apply plugin: 'java'
 
-version = '1.0'
-
-repositories {
-    flatDir {
-        dirs 'lib'
-    }
-}
-
 dependencies {
-    compile name: 'resources'
+    compile files("lib/resources.jar")
 }
 
 jar {
